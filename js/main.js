@@ -1,7 +1,7 @@
 let span = document.querySelector('.up');
 window.onscroll=function()
 {
-    console.log(this.scrollY);
+    //console.log(this.scrollY);
 if(this.scrollY > 500)
 {
     span.classList.add("show");
@@ -18,10 +18,6 @@ window.scrollTo({
     behavior:"smooth"
 });
 }
-
-
-
-
 
 var logo=$("#logo");
 
